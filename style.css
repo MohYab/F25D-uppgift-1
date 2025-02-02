@@ -1,0 +1,84 @@
+/* Generell styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f1f1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Behållare för inloggningsformuläret */
+  .login-container {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Rubrik */
+  .login-container h1 {
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  /* Formulärets element */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #4b4b4b;
+  }
+  
+  input[type="email"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Checkbox och etikett */
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Knappar */
+  button {
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-btn {
+    background-color: #4CAF50;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .login-btn:hover {
+    background-color: #419b46;
+  }
+  
+  .register-btn {
+    background-color: #008CBA;
+    color: #ffffff;
+  }
+  
+  .register-btn:hover {
+    background-color: #007BB5;
+  }
+  
